@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_genre">
+
+    <fragment
+        android:id="@+id/navigation_genre"
+        android:name="com.project.cabaca.feature.ui.genre.genres.GenreFragment"
+        android:label="@string/title_genre"
+        tools:layout="@layout/fragment_genre" />
+
+    <fragment
+        android:id="@+id/navigation_book"
+        android:name="com.project.cabaca.feature.ui.book.list.BookFragment"
+        android:label="@string/title_book"
+        tools:layout="@layout/fragment_book" />
+
+    <fragment
+        android:id="@+id/navigation_writer"
+        android:name="com.project.cabaca.feature.ui.writer.list.WriterFragment"
+        android:label="@string/title_writer"
+        tools:layout="@layout/fragment_writer" />
+</navigation>

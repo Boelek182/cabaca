@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Cabaca</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_genre">Genre</string>
+    <string name="title_book">Buku</string>
+    <string name="title_writer">Penulis</string>
+    <string name="txt_genre">Genre : %1$s</string>
+    <string name="txt_rate_sum">(%1$s/5.0)</string>
+    <string name="txt_view_count">View Count : %1$s</string>
+    <string name="txt_writer">Writer : %1$s</string>
+    <string name="txt_follower">Follower : %1$s</string>
+    <string name="txt_username">Username : @%1$s</string>
+</resources>
